@@ -1,0 +1,134 @@
+bs_sliding_banners:
+ ✔ id @done (14-09-26 15:52)
+ ✔ title @done (14-09-26 15:52)
+ ✔ alt_tag @done (14-09-26 15:52)
+ ✔ banner_img @done (14-09-26 15:52)
+ ✔ sort_order @done (14-09-26 15:52)
+ ✔ status @done (14-09-26 15:52)
+ ✔ created @done (14-09-26 15:52)
+ ✔ modified @done (14-09-26 15:52)
+
+bs_sliding_texts:
+ ✔ id @done (14-09-26 15:52)
+ ✔ body @done (14-09-26 15:52)
+ ✔ sort_order @done (14-09-26 15:52)
+ ✔ status @done (14-09-26 15:52)
+ ✔ created @done (14-09-26 15:52)
+ ✔ modified @done (14-09-26 15:52)
+
+bs_testimonials:
+ ✔ id @done (14-09-26 15:52)
+ ✔ body @done (14-09-26 15:52)
+ ✔ sort_order @done (14-09-26 15:52)
+ ✔ status @done (14-09-26 15:52)
+ ✔ created @done (14-09-26 15:52)
+ ✔ modified @done (14-09-26 15:52)
+
+bs_recomended_stores:
+ ✔ id @done (14-09-26 15:52)
+ ✔ store_img @done (14-09-26 15:52)
+ ✔ sort_order @done (14-09-26 15:52)
+ ✔ status @done (14-09-26 15:52)
+ ✔ created @done (14-09-26 15:52)
+ ✔ modified @done (14-09-26 15:52)
+
+bs_newsletter_subscribers:
+ ✔ id @done (14-09-26 15:52)
+ ✔ name @done (14-09-26 15:52)
+ ✔ email @done (14-09-26 15:52)
+ ✔ status @done (14-09-26 15:52)
+ ✔ created @done (14-09-26 15:52)
+ ✔ modified @done (14-09-26 15:52)
+
+bs_newsletters:
+ ✔ id @done (14-09-26 16:02)
+ ✔ subject @done (14-09-26 16:02)
+ ✔ body @done (14-09-26 16:02)
+ ✔ status @done (14-09-26 16:02)
+ ✔ created @done (14-09-26 16:02)
+ ✔ modified @done (14-09-26 16:02)
+
+bs_sent_newsletters:
+ ✔ id @done (14-09-26 16:02)
+ ✔ newsletter_subscriber_id @done (14-09-26 16:02)
+ ✔ newsletter_id @done (14-09-26 16:02)
+ ✔ status @done (14-09-26 16:02)
+ ✔ created @done (14-09-26 16:02)
+ ✔ modified @done (14-09-26 16:02)
+
+bs_icargo_addresses:
+ ✔ id @done (14-09-26 16:05)
+ ✔ name @done (14-09-26 16:05)
+ ✔ address_one @done (14-09-26 16:05)
+ ✔ address_two @done (14-09-26 16:05)
+ ✔ city @done (14-09-26 16:05)
+ ✔ state @done (14-09-26 16:05)
+ ✔ zip_code @done (14-09-26 16:05)
+ ✔ status @done (14-09-26 16:05)
+ ✔ created @done (14-09-26 16:05)
+ ✔ modified @done (14-09-26 16:05)
+
+bs_cities:
+ ✔ id @done (14-09-26 16:06)
+ ✔ title @done (14-09-26 16:06)
+ ✔ status @done (14-09-26 16:06)
+ ✔ created @done (14-09-26 16:06)
+ ✔ modified @done (14-09-26 16:06)
+
+bs_departments:
+ ✔ id @done (14-09-26 16:07)
+ ✔ city_id @done (14-09-26 16:07)
+ ✔ title @done (14-09-26 16:07)
+ ✔ status @done (14-09-26 16:07)
+ ✔ created @done (14-09-26 16:07)
+ ✔ modified @done (14-09-26 16:07)
+
+bs_members:
+ ✔ id @done (14-09-26 16:09)
+ ✔ fname @done (14-09-26 16:09)
+ ✔ lname @done (14-09-26 16:09)
+ ✔ email @done (14-09-26 16:09)
+ ✔ password @done (14-09-26 16:09)
+ ✔ dob @done (14-09-26 16:09)
+ ✔ land_phone @done (14-09-26 16:09)
+ ✔ cell_phone @done (14-09-26 16:09)
+ ✔ reffered_by @done (14-09-26 16:09)
+ ✔ address_correspondence_to @done (14-09-26 16:09)
+ ✔ city_id @done (14-09-26 16:09)
+ ✔ department_id @done (14-09-26 16:09)
+ ✔ status @done (14-09-26 16:09)
+ ✔ created @done (14-09-26 16:09)
+ ✔ modified @done (14-09-26 16:09)
+
+bs_alerts:
+ ✔ id @done (14-09-26 16:11)
+ ✔ member_id @done (14-09-26 16:11)
+ ✔ note @done (14-09-26 16:11)
+ ✔ status @done (14-09-26 16:11)
+ ✔ created @done (14-09-26 16:11)
+ ✔ modified @done (14-09-26 16:11)
+
+bs_alert_details:
+ ✔ id @done (14-09-26 16:14)
+ ✔ alert_id @done (14-09-26 16:14)
+ ✔ body @done (14-09-26 16:14)
+ ✔ qty @done (14-09-26 16:14)
+ ✔ declaration_amt @done (14-09-26 16:14)
+ ✔ status @done (14-09-26 16:14)
+ ✔ created @done (14-09-26 16:14)
+ ✔ modified @done (14-09-26 16:14)
+
+bs_communications:
+ ✔ id @done (14-09-26 16:16)
+ ✔ alert_id @done (14-09-26 16:16)
+ ✔ member_id @done (14-09-26 16:16)
+ ✔ user_id @done (14-09-26 16:16)
+ ✔ body @done (14-09-26 16:16)
+ ✔ status @done (14-09-26 16:16)
+ ✔ created @done (14-09-26 16:16)
+ ✔ modified @done (14-09-26 16:16)
+
+Other_tables:
+ ✔ bs_users, bs_cmspages are taken from the pittusburgh directory website. @done (14-09-26 16:16)
+ ✔ collation: latin1_spanish_ci @done (14-09-26 16:16)
+ ✔ Type: InnoDB @done (14-09-26 16:16)

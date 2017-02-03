@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+<meta charset="utf-8" />
+<!-- Set the viewport width to device width for mobile -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Welcome to iCargoBox</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="css/jquery.bxslider.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.bxslider.js"></script>
+<script type="text/javascript" src="js/theme-functions.js"></script>
+<script>
+$(document).ready(function(){
+	var index = 5;
+	$("#add_row").click(function(){		
+		index++;
+		$("#row_wrapper").append('<tr><td><div class="num"><span>'+ index +'</span></div></td><td><input name="" type="text" /></td><td class="text_center"><input name="" type="text" /></td><td>$</td><td class="text_price"><input name="" type="text" /></td><td><a href="javascript:void(0);" class="cancel_row"><img src="images/cancel.png" width="12" height="13" alt=""></a></td></tr>');
+    $("#row_wrapper").on('click','.cancel_row',function(){
+        $(this).parent().parent().remove();
+    });
+	});
+});
+</script>
+</head>
+
+<body>
+<!-- header start here -->
+<div class="header_area">
+	<div class="header_wrap">
+        <div class="row">
+            <div class="logo"><a href="#"><img src="images/logo.png" width="176" height="128" alt="" /></a></div>            
+        </div>
+    </div>
+    <div class="nav_wrap">
+    	<div class="row">
+        	<div class="nav_bar">
+            	<div class="main_nav">
+                	<ul>
+                    	<li><a href="#">Inicio</a></li>
+                        <li><a href="#">¿Quiénes somos?</a></li>
+                        <li><a href="#">¿Preguntas más Frecuentes?</a></li>
+                        <li><a href="#">Cómo comprar</a></li>
+                        <li><a href="#">¿Cómo funciona?</a></li>
+                        <li><a href="#">Contáctenos</a></li>
+                    </ul>
+                </div>
+                <div class="social_icon">
+                	<ul>
+                    	<li><a href="#"><img src="images/facebook.png" width="30" height="30" alt="" /></a></li>
+                        <li><a href="#"><img src="images/twitter.png" width="30" height="30" alt="" /></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- header end here -->
+<!-- page title start here -->
+<div class="page_title_wrap">
+	<div class="page_title_container">
+    	<div class="row">
+    		<div class="page_title_left">ALERTA</div>
+            <div class="page_title_right">
+            	<ul>
+                	<li><i><img src="images/i_icon.png" width="22" height="22" alt="" /></i>Sarah Quis</li>
+                    <li><a href="#">Logout</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="page_des_container">
+    	<div class="row">
+        	<div class="page_des">Morbi varius nisiac cursus ullamcnec quis lacus vitae enim dapibus laorenec iaculis, metus non laoreet faucibus.</div>
+        </div>
+    </div>
+</div>
+<!-- page title end here -->
+<!-- content start here -->
+<div class="content_wrap">
+	<div class="row">
+    	<div class="inner_content_container">
+        	<div class="alert_box">
+           	  <div class="alert_box_des">Morbi varius nisi ac dolor cursus ullamcorper. Donec quis lacus vitae enim dapibus laoreet onec<br/> iaculis, metus non laoreet eu rhoncus est libero sit amet dolor.</div>
+                <div class="alert_table">
+                	<table width="100%" border="0" cellspacing="0" cellpadding="5">
+                      <tr>
+                        <td width="5%" align="center">NÚM</td>
+                        <td width="58%" align="center">DescripciÓn</td>
+                        <td width="14%" align="center">Cantidad</td>
+                        <td width="2%">&nbsp;</td>
+                        <td width="18%" align="center">Declaracion U.S $</td>
+                        <td width="3%">&nbsp;</td>
+                      </tr>
+                      <tbody id="row_wrapper">
+                          <tr>
+                            <td><div class="num"><span>1</span></div></td>
+                            <td><input name="" type="text" /></td>
+                            <td class="text_center"><input name="" type="text" /></td>
+                            <td>$</td>
+                            <td class="text_price"><input name="" type="text" /></td>
+                            <td><a href="#"><img src="images/cancel.png" width="12" height="13" alt=""></a></td>
+                          </tr>
+                          <tr>
+                            <td><div class="num"><span>2</span></div></td>
+                            <td><input name="" type="text" /></td>
+                            <td class="text_center"><input name="" type="text" /></td>
+                            <td>$</td>
+                            <td class="text_price"><input name="" type="text" /></td>
+                            <td><a href="#"><img src="images/cancel.png" width="12" height="13" alt=""></a></td>
+                          </tr>
+                          <tr>
+                            <td><div class="num"><span>3</span></div></td>
+                            <td><input name="" type="text" /></td>
+                            <td class="text_center"><input name="" type="text" /></td>
+                            <td>$</td>
+                            <td class="text_price"><input name="" type="text" /></td>
+                            <td><a href="#"><img src="images/cancel.png" width="12" height="13" alt=""></a></td>
+                          </tr>
+                          <tr>
+                            <td><div class="num"><span>4</span></div></td>
+                            <td><input name="" type="text" /></td>
+                            <td class="text_center"><input name="" type="text" /></td>
+                            <td>$</td>
+                            <td class="text_price"><input name="" type="text" /></td>
+                            <td><a href="#"><img src="images/cancel.png" width="12" height="13" alt=""></a></td>
+                          </tr>
+                          <tr>
+                            <td><div class="num"><span>5</span></div></td>
+                            <td><input name="" type="text" /></td>
+                            <td class="text_center"><input name="" type="text" /></td>
+                            <td>$</td>
+                            <td class="text_price"><input name="" type="text" /></td>
+                            <td><a href="#"><img src="images/cancel.png" width="12" height="13" alt=""></a></td>
+                          </tr>
+                      </tbody>
+                    </table>
+					<a href="javascript:void(0);" id="add_row" class="add_link">Añadir Más</a>
+                </div>
+                <div class="alert_bottom">
+                	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td width="52%">¿Tiene alguna instrucción especial para sus órdenes?</td>
+                        <td width="48%"><textarea name=""></textarea></td>
+                      </tr>
+                      <tr>
+                        <td><a href="#" class="btn grey">regresar</a></td>
+                        <td><input name="" type="submit" value="COMPLETAR" /></td>
+                      </tr>
+                    </table>
+                </div>
+          </div>            
+        </div>
+    </div>
+</div>
+<!-- content end here -->
+<!-- footer start here -->
+<div class="footer_wrap">
+	<div class="row">
+    	<div class="footer_container">
+        	<div class="footer_top">
+            	<div class="quick_links">
+                	<h2>Quick Links</h2>
+                    <ul>
+                    	<li><a href="#">Inicio</a></li>
+                        <li><a href="#">¿Quiénes somos?</a></li>
+                        <li><a href="#">¿Preguntas más Frecuentes?</a></li>
+                        <li><a href="#">Cómo comprar</a></li>
+                        <li><a href="#">¿Cómo funciona?</a></li>
+                        <li><a href="#">Contáctenos</a></li>
+                    </ul>
+                </div>
+                <div class="about_us_box">
+                	<h2>About Us</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and sages, and more recently.</p>
+                    <a href="#" class="read_more">Read More</a>
+                </div>
+                <div class="newsletter_box">
+                	<h2>Newsletter</h2>
+                    <form>
+                    	<input name="" type="text" placeholder="Name*" />
+                        <input name="" type="email" placeholder="Email*" />
+                        <input name="" type="submit" value="Send" />
+                    </form>
+                </div>
+                <div class="footer_right_box">
+                	<div class="f_logo"><a href="#"><img src="images/f_logo.png" width="170" height="36" alt="" /></a></div>
+                    <div class="footer_social_icon">
+                        <ul>
+                            <li><a href="#" class="facebook">Facebook</a></li>
+                            <li><a href="#" class="twitter">Twitter</a></li>
+                            <li><a href="#" class="g_plus">Google Plus</a></li>                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_bottom">
+            	<div class="footer_copyright">Copyright &copy; 2014 icargobox.All rights reserved.</div>                
+            </div>
+        </div>
+    </div>
+</div>
+<!-- footer end here -->
+</body>
+</html>

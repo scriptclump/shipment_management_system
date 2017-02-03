@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+<meta charset="utf-8" />
+<!-- Set the viewport width to device width for mobile -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Welcome to iCargoBox</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="css/jquery.bxslider.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.bxslider.js"></script>
+<script type="text/javascript" src="js/theme-functions.js"></script>
+
+<script type="text/javascript">
+/*$(document).ready(function(){
+	$( ".click_btn" ).click(function() {	
+	  $( ".expand" ).slideToggle( 500 );
+	});
+});*/
+$(document).ready(function() {
+  $(".expand").hide();  
+  $(".click_btn").click(function()
+  {
+    $(this).next(".expand").slideToggle(500);
+  });
+});
+</script>
+</head>
+
+<body>
+<!-- header start here -->
+<div class="header_area">
+	<div class="header_wrap">
+        <div class="row">
+            <div class="logo"><a href="#"><img src="images/logo.png" width="176" height="128" alt="" /></a></div>            
+        </div>
+    </div>
+    <div class="nav_wrap">
+    	<div class="row">
+        	<div class="nav_bar">
+            	<div class="main_nav">
+                	<ul>
+                    	<li><a href="#">Inicio</a></li>
+                        <li><a href="#">¿Quiénes somos?</a></li>
+                        <li><a href="#">¿Preguntas más Frecuentes?</a></li>
+                        <li><a href="#">Cómo comprar</a></li>
+                        <li><a href="#">¿Cómo funciona?</a></li>
+                        <li><a href="#">Contáctenos</a></li>
+                    </ul>
+                </div>
+                <div class="social_icon">
+                	<ul>
+                    	<li><a href="#"><img src="images/facebook.png" width="30" height="30" alt="" /></a></li>
+                        <li><a href="#"><img src="images/twitter.png" width="30" height="30" alt="" /></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- header end here -->
+<!-- page title start here -->
+<div class="page_title_wrap">
+	<div class="page_title_container">
+    	<div class="row">
+    		<div class="page_title_left">CUSTOMER Shipment PAGE</div>
+            <div class="page_title_right">
+            	<ul>
+                	<li><i><img src="images/i_icon.png" width="22" height="22" alt="" /></i>Sarah Quis</li>
+                    <li><a href="#">Logout</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="page_des_container">
+    	<div class="row">
+        	<div class="page_des">Morbi varius nisiac cursus ullamcnec quis lacus vitae enim dapibus laorenec iaculis, metus non laoreet faucibus.</div>
+        </div>
+    </div>
+</div>
+<!-- page title end here -->
+<!-- content start here -->
+<div class="content_wrap">
+	<div class="row">
+    	<div class="inner_content_container">
+        	<div class="inner_content_left">    
+            	<h3>&nbsp;</h3>
+                <form>                    
+                    <div class="left_box">
+                        <h4>Dirección de entrega</h4>
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <tr>
+                            <td width="28%">E-mail: *</td>
+                            <td><input name="" type="text" readonly value="PEPE PEREZ / 101" /></td>
+                          </tr>
+                          <tr>
+                            <td>Nombres: *</td>
+                            <td><input name="" type="text" readonly value="Sarah Quis" /></td>
+                          </tr>
+                          <tr>
+                            <td class="textarea">Dirección:</td>
+                            <td><textarea name="" cols="" rows="">CARRERA 11 # 17 - 32</textarea></td>
+                          </tr>
+                          <tr>
+                            <td>Cuidad:</td>
+                            <td><input name="" type="text" value="BOGOTA" /></td>
+                          </tr>
+                          <tr>
+                            <td>Depto:</td>
+                            <td><input name="" type="text" value="CUNDINAMARCA" /></td>
+                          </tr>
+                          <tr>
+                            <td>Teléfono #:</td>
+                            <td><input name="" type="text" value="6785205133" /></td>
+                          </tr>
+                          <tr>
+                            <td colspan="2" align="center"><input name="" type="submit" value="Actualizar Información Personal" /></td>
+                          </tr>
+                        </table>
+                    </div>
+                </form>
+            </div>
+            <div class="inner_content_right">
+            	<div class="content_right_top">
+                    <div class="right_top_title"><h3>&nbsp;</h3></div>
+                    <div class="right_btn">
+                        <a href="#" class="btn blue">Centro de mensajes</a>
+                        <a href="#" class="btn red">ALERTA</a>
+                    </div>
+                </div>
+                <div class="shipment_row">
+                	<div class="shipment_box">
+                    	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <tr class="top_row">
+                            <td colspan="4">Tracking /Guia iCargoBox: <input name="" type="text" value="" /></td>
+                            <td colspan="3">Tracking /Guia National: <input name="" type="text" value="" /></td>
+                          </tr>
+                          <tr class="head_row">
+                            <td>Fecha</td>
+                            <td>Peso (Lbs)</td>
+                            <td>Costo por<br/>Libra</td>
+                            <td>Declaracion<br/>Total USD</td>
+                            <td>Total Impuesto</td>
+                            <td>Seguro</td>
+                            <td>Status</td>
+                          </tr>
+                          <tr>
+                            <td>6/2/2014</td>
+                            <td>10.5</td>
+                            <td>$1.59</td>
+                            <td>$100.00</td>
+                            <td>$28.00</td>
+                            <td>$100.00</td>
+                            <td>Consolidation /<br/>Consolidacion</td>
+                          </tr>
+                          <tr class="head_row">
+                            <td>Cargos Extras</td>                            
+                            <td colspan="2">Desc. Cargos Extras</td>
+                            <td>Total US $</td>
+                            <td>Cambio (TRM)</td>                            
+                            <td colspan="2">Total A Pagar en Pesos</td>
+                          </tr>
+                          <tr>
+                            <td>$6.00</td>                            
+                            <td colspan="2">Caja Grande</td>
+                            <td>$49.70</td>
+                            <td>$1933</td>                            
+                            <td colspan="2" class="total">$96,070.10</td>
+                          </tr>
+                        </table>
+                    </div>
+                    <div class="shipment_middle">                        
+                        <a href="#" class="btn green">Pagar</a>
+                    </div>
+                    <a href="javascript:void(0);" class="add_link click_btn">Contenidos</a>
+                    <div class="description_box expand">
+                    	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <thead>
+                          <tr>
+                            <td width="80%">Descripción</td>
+                            <td width="20%" align="center">Cantidad</td>
+                          </tr>
+                          </thead>
+                          <tr>
+                            <td>Apple IPAD</td>
+                            <td align="center">1</td>
+                          </tr>
+                          <tr>
+                            <td>Pair of Nikes Shoes - White Size 10</td>
+                            <td align="center">1</td>
+                          </tr>
+                          <tr>
+                            <td>Polo Shirts - Red / White</td>
+                            <td align="center">2</td>
+                          </tr>
+                        </table>
+                    </div>
+              </div>
+              	<div class="shipment_row">
+                	<div class="shipment_box">
+                    	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <tr class="top_row">
+                            <td colspan="4">Tracking /Guia iCargoBox: <input name="" type="text" value="" /></td>
+                            <td colspan="3">Tracking /Guia National: <input name="" type="text" value="" /></td>
+                          </tr>
+                          <tr class="head_row">
+                            <td>Fecha</td>
+                            <td>Peso (Lbs)</td>
+                            <td>Costo por<br/>Libra</td>
+                            <td>Declaracion<br/>Total USD</td>
+                            <td>Total Impuesto</td>
+                            <td>Seguro</td>
+                            <td>Status</td>
+                          </tr>
+                          <tr>
+                            <td>6/2/2014</td>
+                            <td>10.5</td>
+                            <td>$1.59</td>
+                            <td>$100.00</td>
+                            <td>$28.00</td>
+                            <td>$100.00</td>
+                            <td>Pending Payment /<br/>Pago Pendiente</td>
+                          </tr>
+                          <tr class="head_row">
+                            <td>Cargos Extras</td>                            
+                            <td colspan="2">Desc. Cargos Extras</td>
+                            <td>Total US $</td>
+                            <td>Cambio (TRM)</td>                            
+                            <td colspan="2">Total A Pagar en Pesos</td>
+                          </tr>
+                          <tr>
+                            <td>$6.00</td>                            
+                            <td colspan="2">Caja Grande</td>
+                            <td>$49.70</td>
+                            <td>$1933</td>                            
+                            <td colspan="2" class="total">$96,070.10</td>
+                          </tr>
+                        </table>
+                    </div>
+                    <div class="shipment_middle">                    	
+                        <a href="#" class="btn green">Pagar</a>
+                    </div>
+                    <a href="javascript:void(0);" class="add_link click_btn">Contenidos</a>
+                    <div class="description_box expand">
+                    	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <thead>
+                          <tr>
+                            <td width="80%">Descripción</td>
+                            <td width="20%" align="center">Cantidad</td>
+                          </tr>
+                          </thead>
+                          <tr>
+                            <td>Shoes</td>
+                            <td align="center">1</td>
+                          </tr>
+                          <tr>
+                            <td>Baby Car Seat - Blue</td>
+                            <td align="center">1</td>
+                          </tr>                          
+                        </table>
+                    </div>
+              </div>
+              	<div class="shipment_row">
+                	<div class="shipment_box">
+                    	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <tr class="top_row">
+                            <td colspan="4">Tracking /Guia iCargoBox: <input name="" type="text" value="" /></td>
+                            <td colspan="3">Tracking /Guia National: <input name="" type="text" value="" /></td>
+                          </tr>
+                          <tr class="head_row">
+                            <td>Fecha</td>
+                            <td>Peso (Lbs)</td>
+                            <td>Costo por<br/>Libra</td>
+                            <td>Declaracion<br/>Total USD</td>
+                            <td>Total Impuesto</td>
+                            <td>Seguro</td>
+                            <td>Status</td>
+                          </tr>
+                          <tr>
+                            <td>6/2/2014</td>
+                            <td>10.5</td>
+                            <td>$1.59</td>
+                            <td>$100.00</td>
+                            <td>$28.00</td>
+                            <td>$100.00</td>
+                            <td>Shipped /<br/>Despachado</td>
+                          </tr>
+                          <tr class="head_row">
+                            <td>Cargos Extras</td>                            
+                            <td colspan="2">Desc. Cargos Extras</td>
+                            <td>Total US $</td>
+                            <td>Cambio (TRM)</td>                            
+                            <td colspan="2">Total A Pagar en Pesos</td>
+                          </tr>
+                          <tr>
+                            <td>$6.00</td>                            
+                            <td colspan="2">Caja Grande</td>
+                            <td>$49.70</td>
+                            <td>$1933</td>                            
+                            <td colspan="2" class="total">$96,070.10</td>
+                          </tr>
+                        </table>
+                    </div>
+                    <div class="shipment_middle">                    	
+                        <a href="#" class="btn green">Pagar</a>
+                    </div>
+                    <a href="javascript:void(0);" class="add_link click_btn">Contenidos</a>
+                    <div class="description_box expand">
+                    	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <thead>
+                          <tr>
+                            <td width="80%">Descripción</td>
+                            <td width="20%" align="center">Cantidad</td>
+                          </tr>
+                          </thead>
+                          <tr>
+                            <td>Shoes</td>
+                            <td align="center">1</td>
+                          </tr>
+                          <tr>
+                            <td>Baby Car Seat - Blue</td>
+                            <td align="center">1</td>
+                          </tr>
+                        </table>
+                    </div>
+              </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- content end here -->
+<!-- footer start here -->
+<div class="footer_wrap">
+	<div class="row">
+    	<div class="footer_container">
+        	<div class="footer_top">
+            	<div class="quick_links">
+                	<h2>Quick Links</h2>
+                    <ul>
+                    	<li><a href="#">Inicio</a></li>
+                        <li><a href="#">¿Quiénes somos?</a></li>
+                        <li><a href="#">¿Preguntas más Frecuentes?</a></li>
+                        <li><a href="#">Cómo comprar</a></li>
+                        <li><a href="#">¿Cómo funciona?</a></li>
+                        <li><a href="#">Contáctenos</a></li>
+                    </ul>
+                </div>
+                <div class="about_us_box">
+                	<h2>About Us</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and sages, and more recently.</p>
+                    <a href="#" class="read_more">Read More</a>
+                </div>
+                <div class="newsletter_box">
+                	<h2>Newsletter</h2>
+                    <form>
+                    	<input name="" type="text" placeholder="Name*" />
+                        <input name="" type="email" placeholder="Email*" />
+                        <input name="" type="submit" value="Send" />
+                    </form>
+                </div>
+                <div class="footer_right_box">
+                	<div class="f_logo"><a href="#"><img src="images/f_logo.png" width="170" height="36" alt="" /></a></div>
+                    <div class="footer_social_icon">
+                        <ul>
+                            <li><a href="#" class="facebook">Facebook</a></li>
+                            <li><a href="#" class="twitter">Twitter</a></li>
+                            <li><a href="#" class="g_plus">Google Plus</a></li>                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_bottom">
+            	<div class="footer_copyright">Copyright &copy; 2014 icargobox.All rights reserved.</div>                
+            </div>
+        </div>
+    </div>
+</div>
+<!-- footer end here -->
+</body>
+</html>
